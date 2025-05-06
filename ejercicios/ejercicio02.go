@@ -6,10 +6,13 @@ import (
 	"github.com/godesde0/teclado"
 )
 
-func TablaDeMultiplicar() {
+func TablaDeMultiplicar() string {
 
+	var tablaCompleta string
 	numero := teclado.IngresoNumeroMultiplicar()
+
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d X %d = %d\n", numero, i, (numero * i))
+		tablaCompleta += fmt.Sprintf("%d X %d = %d\n", numero, i, (numero * i))
 	}
+	return tablaCompleta
 }
