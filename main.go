@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/godesde0/files"
+	arreglosslices "github.com/godesde0/arreglosSlices"
 )
 
 func main() {
@@ -41,5 +41,9 @@ func main() {
 	*/
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeerArchivo2()
+	//files.LeerArchivo2()
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+	arreglosslices.MostrarSlices()
 }

@@ -11,6 +11,7 @@ import (
 
 var filename string = "./files/txt/tabla.txt"
 
+// escribir en un archivo
 func GrabaTabla() {
 	var texto string = ejercicios.TablaDeMultiplicar()
 	archivo, err := os.Create(filename)
@@ -24,6 +25,7 @@ func GrabaTabla() {
 	archivo.Close()
 }
 
+// concatenar arreglos en un archivo
 func SumaTabla() {
 	var texto string = ejercicios.TablaDeMultiplicar()
 
@@ -60,6 +62,7 @@ func LeerArchivo() {
 
 }
 
+// leer archivo de manera correcta
 func LeerArchivo2() {
 	archivo, err := os.Open(filename)
 	if err != nil {
