@@ -1,7 +1,7 @@
 package main
 
 import (
-	arreglosslices "github.com/godesde0/arreglosSlices"
+	"github.com/godesde0/usuarios"
 )
 
 func main() {
@@ -45,5 +45,7 @@ func main() {
 	//funciones.Calculos()
 	//funciones.LlamarClosure()
 	//funciones.Exponencia(2)
-	arreglosslices.MostrarSlices()
+	//arreglosslices.Capacidad()
+	//mapas.MostrarMapas()
+	usuarios.AltaUsuario()
 }

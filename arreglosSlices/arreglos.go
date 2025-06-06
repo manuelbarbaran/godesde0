@@ -5,7 +5,7 @@ import "fmt"
 var tabla [10]int = [10]int{0, 52, 63, 56}
 var matriz [10][15]int
 
-func MuerstroArreglos() {
+func MuestroArreglos() {
 
 	tabla[7] = 33
 	tabla[9] = 20
