@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/godesde0/usuarios"
+	"github.com/godesde0/ejer_interfaces"
+	"github.com/godesde0/modelos"
 )
 
 func main() {
@@ -47,5 +48,11 @@ func main() {
 	//funciones.Exponencia(2)
 	//arreglosslices.Capacidad()
 	//mapas.MostrarMapas()
-	usuarios.AltaUsuario()
+	//usuarios.AltaUsuario()
+	Manuel := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Manuel)
+
+	Nicol := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Nicol)
+
 }
